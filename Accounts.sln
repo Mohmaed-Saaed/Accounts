@@ -4,10 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accounts", "Accounts.csproj", "{4CE3C7E7-9FDB-43E5-BFE8-BA480B23D586}"
+	ProjectSection(ProjectDependencies) = postProject
+		{40A73CDB-1DE8-41CC-9CBF-CD7625564B19} = {40A73CDB-1DE8-41CC-9CBF-CD7625564B19}
+		{D2427A07-4CE7-4538-B384-081EEF128B0D} = {D2427A07-4CE7-4538-B384-081EEF128B0D}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchTask", "..\SearchTask\SearchTask.csproj", "{40A73CDB-1DE8-41CC-9CBF-CD7625564B19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchTask", "..\SearchTask\SearchTask.csproj", "{40A73CDB-1DE8-41CC-9CBF-CD7625564B19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchTask2", "..\SearchTask2\SearchTask2.csproj", "{D2427A07-4CE7-4538-B384-081EEF128B0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchTask2", "..\SearchTask2\SearchTask2.csproj", "{D2427A07-4CE7-4538-B384-081EEF128B0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
